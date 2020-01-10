@@ -77,7 +77,7 @@ def runGame():
                     direction = UP
                 elif (event.key == K_DOWN) and direction != UP:
                     direction = DOWN
-                elif event.key == K_ESCAPE:
+                elif event.key == K_q:
                     terminate()
 
         # check if the Snake has hit itself or the edge
