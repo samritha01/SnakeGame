@@ -27,7 +27,7 @@ Red_DARK = (150, 0, 0)
 BLUE = (0, 0, 255)
 BLUE_DARK = (0, 0, 150)
 
-BGCOLOR = Black  # Background color
+BGCOLOR = DARKGRAY  # Background color
 
 UP = 'up'
 DOWN = 'down'  # Defining keyboard keys.
@@ -212,7 +212,7 @@ def drawApple(coord):
     x = coord['x'] * Cell_Size
     y = coord['y'] * Cell_Size
     appleRect = pygame.Rect(x, y, Cell_Size, Cell_Size)
-    pygame.draw.rect(DISPLAYSURF, Red, appleRect)
+    pygame.draw.rect(DISPLAYSURF, YELLOW, appleRect)
 
 
 def drawGrid():
