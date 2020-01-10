@@ -121,7 +121,7 @@ def runGame():
 def drawPressKeyMsg():
     pressKeySurf = BASICFONT.render('Press a key to play.', True, White)
     pressKeyRect = pressKeySurf.get_rect()
-    pressKeyRect.topleft = (Window_Width - 200, Window_Height - 30)
+    pressKeyRect.topleft = (Window_Width - 250, Window_Height - 100)
     DISPLAYSURF.blit(pressKeySurf, pressKeyRect)
 
 
