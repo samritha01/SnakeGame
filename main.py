@@ -169,13 +169,13 @@ def getRandomLocation():
 
 
 def showGameOverScreen():
-    gameOverFont = pygame.font.Font('freesansbold.ttf', 100)
+    gameOverFont = pygame.font.Font('freesansbold.ttf', 80)
     gameSurf = gameOverFont.render('Game', True, White)
     overSurf = gameOverFont.render('Over', True, White)
     gameRect = gameSurf.get_rect()
     overRect = overSurf.get_rect()
-    gameRect.midtop = (Window_Width / 2, 10)
-    overRect.midtop = (Window_Width / 2, gameRect.height + 10 + 25)
+    gameRect.midtop = (Window_Width / 2, 290)
+    overRect.midtop = (Window_Width / 2, 360)
 
     DISPLAYSURF.blit(gameSurf, gameRect)
     DISPLAYSURF.blit(overSurf, overRect)
