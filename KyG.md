@@ -1,6 +1,6 @@
 # Project Title : Snake Game
-### Batch NO :
-### Mentor Name :
+### Batch NO :06
+### Mentor Name :Ajeeth.B
 ### Github Link : https://github.com/samrithaeiffel/SnakeGame
 ### Team Details :
 | S.no  | Name  | Roll Number  | Email Id  |

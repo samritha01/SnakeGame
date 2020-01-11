@@ -2,8 +2,8 @@ import random
 import pygame
 import sys
 from pygame.locals import *
-
-Snakespeed = 17
+import time
+Snakespeed = 8
 Window_Width = 1000
 Window_Height = 800
 Cell_Size = 20  # Width and height of the cells
@@ -69,6 +69,8 @@ def runGame():
             if event.type == QUIT:
                 terminate()
             elif event.type == KEYDOWN:
+                if(event.key ==K_p):
+                    time.sleep(5)
                 if (event.key == K_LEFT) and direction != RIGHT:
                     direction = LEFT
                 elif (event.key == K_RIGHT) and direction != LEFT:
